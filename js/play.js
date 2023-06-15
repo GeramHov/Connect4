@@ -120,7 +120,7 @@
 
         // CREATING 1ST PLAYER CARD
         this.firstPlayerCard.innerHTML = `
-            <div id="firstcard" class="card border-0" style="width: 22rem;">
+            <div id="firstcard" class="card border-0">
               <div class="card-body bg-slate text-light">
                 <h3 class="card-title text-center pb-5"><img class="me-3" src="/images/mk-logo.png" alt="mk" width="40" height="40"> ${this.player1.charAt(0).toUpperCase()+ this.player1.slice(1)} </h3>
                   <div id="linecolorplayer1"></div>
@@ -133,7 +133,7 @@
 
         // CREATING 2ST PLAYER CARD
         this.secondPlayerCard.innerHTML = `
-        <div id="secondcard" class="card border-0" style="width: 22rem;">
+        <div id="secondcard" class="card border-0">
           <div class="card-body bg-slate text-light">
             <h3 class="card-title text-center pb-5"><img class="me-3" src="/images/mk-logo.png" alt="mk" width="40" height="40">${this.player2.charAt(0).toUpperCase()+ this.player2.slice(1)}</h3>
               <div id="linecolorplayer2"></div>
